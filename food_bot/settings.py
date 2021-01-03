@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'k+etc93gz2et^w2s+2%ua*p_(c+yd7u#w17to5h&nv@v2jie7r'
+SECRET_KEY = 'YOUR SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -29,9 +29,9 @@ ALLOWED_HOSTS = [
     '2b60f30ee00e.ngrok.io', 'localhost'
 ]
 
-LINE_CHANNEL_ACCESS_TOKEN = 'YassAMCpjDoIS5J+NO4rxZge/6rIiJX96dFU9xP/kl+nYbedvZH0Cl+ZzugEOsv/wz+cyR0oAQmQQQmAIiWZJfm1jssgZ3e8r819NRTGfbiTg86c7JicifepC516JHLjI1aJeCtLbr96wb0TeQ6Q5gdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_ACCESS_TOKEN = 'YOUR LINE_CHANNEL_ACCESS_TOKEN'
  
-LINE_CHANNEL_SECRET = '6b1c1f53bb4f53cb557c77b644b2ae44'
+LINE_CHANNEL_SECRET = 'YOUR LINE_CHANNEL_SECRET'
 
 
 # Application definition
