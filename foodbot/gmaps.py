@@ -3,7 +3,7 @@ import requests
 import googlemaps
 import pandas as pd
 
-gmaps = googlemaps.Client(key='AIzaSyBk6_8ZvLIHbbfiZMmcEM5zO6Ey8bq8aTA')
+gmaps = googlemaps.Client(key='YOUR GOOGLE MAPS API KEY')
 class Food(ABC):
 
     def __init__(self, area):
